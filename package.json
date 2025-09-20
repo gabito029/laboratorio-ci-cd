@@ -2,10 +2,13 @@
   "name": "unsch_ci-cd",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node -e \"console.log('No tests yet');\"",
-    "start": "node server.js"
+    "test": "echo \"(Sin pruebas todavía)\" && exit 0",
+    "start": "node app.js"
+  },
+  "engines": {
+  "node": ">=18"
   },
   "keywords": [],
   "author": "",
